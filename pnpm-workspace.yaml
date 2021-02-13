@@ -1,0 +1,7 @@
+packages:
+  # all packages in subdirs
+  - 'libs/**'
+  - 'apps/**'
+  - 'components/**'
+  # exclude packages that are inside __tests__/ directories
+  - '!**/__tests__/**'
